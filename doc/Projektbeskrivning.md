@@ -5,19 +5,19 @@ Projektmedlemmar:
 [Exekverbar version av projektet](http://epr.github.io/projekt)
 
 ## Beskrivning av projektet
-*En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
+Projektet är att skapa en ny hemsida åt tolkförmedlingen Kronotolk som ska ersätta den nuvarande sidan kronotolk.se.
+Den nuvarande sidan är statisk, dåligt strukturerad och designad och behöver en komplett uppdatering.
+Jag jobbar som tolk hos Kronotolk och det var så jag fick idén att göra om hemsidan.
 
 ## Tekniker
-*Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*
+Jag kommer att använda html5 och css för att skapa sidorna. Jag kommer antagligen använda lite javascript.
+Jag har även tänkt att ta en titt på sass. Senare kommer även php att behövas för formulären.
 
 ## Begränsningar
-*Eventuella begränsningar i projektet. Kanske kommer viss funktionalitet att fejkas eftersom ni inte besitter kunskaper att skapa detta ännu?*
+Då sidan ligger på gh-pages kommer jag inte kunna använda php än så formulären kommer inte att fungera än. Detta kommer senare om/när sidan läggs upp på servern.
 
 ## Förstudier
-*Eventuellt redan existerande prototyper, användarundersökningar etc. Kanske gör ni om en befintlig webbplats? Beskriv då det här.*
-
-## *Förändra*
-*Lägg gärna till egna rubriker eller förändra strukturen så att den passar ert projekt.*
+Det finns redan en hemsida på kronotolk.se och jag kommer att använda textmaterialet därifrån men all design och struktur ska göra om.
 
 ## Tidsplanering
 *Länka till tidsplaneringen här, eller fäll in som en bild.*
