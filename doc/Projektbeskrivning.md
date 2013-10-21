@@ -21,5 +21,5 @@ Då sidan ligger på gh-pages kommer jag inte kunna använda php än så formul�
 Det finns redan en hemsida på kronotolk.se och jag kommer att använda textmaterialet därifrån men all design och struktur ska göra om.
 
 ## Tidsplanering
-[GANTT (pdf)](GANTT.pdf)
+[GANTT (pdf)](http://epr.github.io/projekt/doc/GANTT.pdf)
 
