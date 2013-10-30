@@ -1,10 +1,23 @@
+/*
+red: #6b0808
+green: #669933
+beige: #cfccaa
+*/
+
+@font-face {
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen'), local('Oxygen-Regular'), url(http://themes.googleusercontent.com/static/fonts/oxygen/v2/eAWT4YudG0otf3rlsJD6zOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+
 body {
     margin: 0;
+    background: #cfccaa;
 }
 body > header, body > main, body > footer {
     width: 1000px;
     margin: 0 auto;
-    background: aqua;
 }
 
 body > header {
@@ -15,7 +28,9 @@ h1 {
 }
 
 body > nav {
-    background: aqua;
+    background: #669933;
+    font: 24px "Oxygen", sans-serif;
+    border-bottom: 4px solid #6b0808;
 }
 body > nav ul {
     width: 1000px;
@@ -28,18 +43,22 @@ body > nav li {
     width: 20%;
 }
 body > nav a {
-    padding: 1em 0;
+    padding: .5em 0;
     width: 100%;
-    background: green;
     display: inline-block;
     text-align: center;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid #6b0808;
+    text-decoration: none;
+    color: #6b0808;
+    margin-bottom: -4px;
 }
 body > nav ul:hover .current a {
-    border-bottom-color: blue;
+    border-bottom-color: #6b0808;
+    color: #6b0808;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
-    border-bottom-color: red;
+    border-bottom-color: #dfddbb;
+    color: #dfddbb;
     outline: 0;
 }
 
