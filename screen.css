@@ -1,21 +1,48 @@
-body > header, body > nav, body > main, body > footer {
+body {
+    margin: 0;
+}
+body > header, body > main, body > footer {
     width: 1000px;
     margin: 0 auto;
     background: aqua;
 }
 
+body > header {
+    padding: 1em 0;
+}
+h1 {
+    margin: 0;
+}
+
+body > nav {
+    background: aqua;
+}
 body > nav ul {
+    width: 1000px;
+    margin: 0 auto;
     padding: 0;
 }
 body > nav li {
     list-style: none;
     display: inline-block;
-    width: 19%;
-    margin: 0 auto;
+    width: 20%;
 }
 body > nav a {
-    padding: 20px;
+    padding: 1em 0;
+    width: 100%;
     background: green;
     display: inline-block;
     text-align: center;
+    border-bottom: 4px solid blue;
+}
+body > nav ul:hover .current a {
+    border-bottom-color: blue;
+}
+body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
+    border-bottom-color: red;
+    outline: 0;
+}
+
+h2 {
+    margin: 0;
 }
