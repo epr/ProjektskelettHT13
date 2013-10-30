@@ -1,0 +1,21 @@
+body > header, body > nav, body > main, body > footer {
+    width: 1000px;
+    margin: 0 auto;
+    background: aqua;
+}
+
+body > nav ul {
+    padding: 0;
+}
+body > nav li {
+    list-style: none;
+    display: inline-block;
+    width: 19%;
+    margin: 0 auto;
+}
+body > nav a {
+    padding: 20px;
+    background: green;
+    display: inline-block;
+    text-align: center;
+}
