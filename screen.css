@@ -27,6 +27,7 @@ body > header {
 }
 h1 {
     margin: 0;
+    font-family: "Georgia", serif;
 }
 
 h1:after {
@@ -58,13 +59,20 @@ body > nav ul:hover .current a {
     color: #6b0808;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
-    border-bottom-color: #dfddbb;
-    color: #dfddbb;
+    border-bottom-color: orange;
+    color: orange;
     outline: 0;
 }
 
 h2 {
-    margin: 0;
+    margin: .25em 0;
+    border-bottom: .125em solid black;
+    font-family: "Georgia", serif;
+}
+h3 {
+    margin: .25em 0;
+    border-bottom: .11em solid black;
+    font-family: "Georgia", serif;
 }
 main p, main ul {
     font: 1em "Georgia", serif;
