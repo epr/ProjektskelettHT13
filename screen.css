@@ -64,7 +64,7 @@ main p, main ul {
     font: 20px Georgia;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) {h1:after {content:" min 320";}
 
 body > header, body > nav ul, body > main, body > footer {
     width: 320px;
@@ -75,7 +75,7 @@ body > nav {
 
 }
 
-@media (min-width: 480px) {
+@media (min-width: 480px) {h1:after {content:" min 480";}
 
 body > header, body > nav ul, body > main, body > footer {
     width: 480px;
@@ -86,7 +86,7 @@ body > nav {
 
 }
 
-@media (min-width: 640px) {
+@media (min-width: 640px) {h1:after {content:" min 640";}
 
 body > header, body > nav ul, body > main, body > footer {
     width: 640px;
@@ -97,7 +97,7 @@ body > nav {
 
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) {h1:after {content:" min 800";}
 
 body > header, body > nav ul, body > main, body > footer {
     width: 800px;
