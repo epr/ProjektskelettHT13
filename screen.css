@@ -15,9 +15,10 @@ body {
     margin: 0;
     background: #cfccaa;
 }
-body > header, body > main, body > footer {
-    width: 1000px;
+body > header, body > nav ul, body > main, body > footer {
     margin: 0 auto;
+    padding: 0;
+    width: 800px;
 }
 
 body > header {
@@ -31,11 +32,6 @@ body > nav {
     background: #669933;
     font: 24px "Oxygen", sans-serif;
     border-bottom: 4px solid #6b0808;
-}
-body > nav ul {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 0;
 }
 body > nav li {
     list-style: none;
@@ -64,4 +60,31 @@ body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body 
 
 h2 {
     margin: 0;
+}
+main p, main ul {
+    font: 20px Georgia;
+}
+
+@media (max-width: 320px) {
+
+body > header, body > nav ul, body > main, body > footer {
+    width: 320px;
+}
+
+}
+
+@media (max-width: 480px) {
+
+body > header, body > nav ul, body > main, body > footer {
+    width: 480px;
+}
+
+}
+
+@media (max-width: 640px) {
+
+body > header, body > nav ul, body > main, body > footer {
+    width: 640px;
+}
+
 }
