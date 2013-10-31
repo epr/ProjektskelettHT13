@@ -14,6 +14,7 @@ beige: #cfccaa
 body {
     margin: 0;
     background: #cfccaa;
+    font-size: 10px;
 }
 body > header, body > nav ul, body > main, body > footer {
     margin: 0 auto;
@@ -34,7 +35,7 @@ h1:after {
 
 body > nav {
     background: #669933;
-    font-family: "Oxygen", sans-serif;
+    font: 1em "Oxygen", sans-serif;
     border-bottom: .2em solid #6b0808;
 }
 body > nav li {
@@ -66,49 +67,51 @@ h2 {
     margin: 0;
 }
 main p, main ul {
-    font: 20px Georgia;
+    font: 1em "Georgia", serif;
 }
 
-@media (min-width: 320px) {h1:after {content:" min 320";}
+/* == media querries == */
 
+@media (min-width: 320px) { h1:after {content:" min 320";}
+
+body {
+    font-size: 12px;
+}
 body > header, body > nav ul, body > main, body > footer {
     width: 320px;
 }
-body > nav {
-    font-size: 12px;
-}
 
 }
 
-@media (min-width: 480px) {h1:after {content:" min 480";} /*iPhone 5: 568px*/
+@media (min-width: 480px) { h1:after {content:" min 480";} /*iPhone 5: 568px*/
 
+body {
+    font-size: 16px;
+}
 body > header, body > nav ul, body > main, body > footer {
     width: 480px;
 }
-body > nav {
-    font-size: 16px;
-}
 
 }
 
-@media (min-width: 640px) {h1:after {content:" min 640";}
+@media (min-width: 640px) { h1:after {content:" min 640";}
 
+body {
+    font-size: 20px;
+}
 body > header, body > nav ul, body > main, body > footer {
     width: 640px;
 }
-body > nav {
-    font-size: 20px;
-}
 
 }
 
-@media (min-width: 800px) {h1:after {content:" min 800";}
+@media (min-width: 800px) { h1:after {content:" min 800";}
 
+body {
+    font-size: 24px;
+}
 body > header, body > nav ul, body > main, body > footer {
     width: 800px;
-}
-body > nav {
-    font-size: 24px;
 }
 
 }
