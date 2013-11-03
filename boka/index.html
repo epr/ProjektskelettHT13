@@ -20,7 +20,66 @@
                 <h2>Boka tolkning eller översättning</h2>
                 <p>Använd formulären nedan eller maila oss på <a href="mailto:bokning@kronotolk.se">bokning@kronotolk.se</a>.</p>
                 <form>
-                    <input type="text">
+                    <fieldset>
+                        <legend>Bokas av</legend>
+                        <div>
+                            <label for="forvaltning">Förvaltning: </label><input type="text" id="forvaltning" name="Förvaltning">
+                        </div>
+                        <div>
+                            <label for="avdelning">Avdelning: </label><input type="text" id="avdelning" name="Avdelning">
+                        </div>
+                        <div>
+                            <label for="tjansteman">Tjänsteman: </label><input type="text" id="tjansteman" name="Tjänsteman">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Klient</legend>
+                        <div>
+                            <label for="klient">Klient: </label><input type="text" id="klient" name="Klient">
+                        </div>
+                        <div>
+                            <label for="personnummer">Personnummer: </label><input type="text" id="personnummer" name="Personnummer">
+                        </div>
+                        <div>
+                            <label for="aktnummer">Aktnummer: </label><input type="text" id="aktnummer" name="Aktnummer">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Uppdrag</legend>
+                        <div>
+                            <input type="radio" id="plats" name="typ" value="plats"><label for="plats"> På plats</label>
+                            <input type="radio" id="telefon" name="typ" value="telefon"><label for="telefon"> Telefon</label>
+                        </div>
+                        <div>
+                            <label for="datum">Datum: </label><input type="date" id="datum" name="Datum">
+                        </div>
+                        <div>
+                            <label for="tid">Tid: </label><input type="time" id="tid" name="Tid">
+                            <label for="langd">Längd: </label><input type="number" id="langd" name="Längd">
+                        </div>
+                        <div>
+                            <label for="sprak">Språk: </label><select id="sprak" name="Språk">
+                                <option value="Engelska">Engelska</option>
+                                <option value="Spanska">Spanska</option>
+                                <option value="Franska">Franska</option>
+                                <option value="Tyska">Tyska</option>
+                                <option value="Rumänska">Rumänska</option>
+                                <option value="Arabiska">Arabiska</option>
+                                <option value="Somaliska">Somaliska</option>
+                                <option value="Annat">Annat</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Övrigt</legend>
+                        <label for="speciella">Speciella önskemål: </label>
+                        <textarea id="speciella" name="Speciella önskemål"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Skicka eller radera</legend>
+                        <input type="submit" value="Skicka">
+                        <input type="reset" value="Radera">
+                    </fieldset>
                 </form>
             </article>
         </main>
