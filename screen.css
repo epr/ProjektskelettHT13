@@ -14,12 +14,12 @@ beige: #cfccaa
 body {
     margin: 0;
     background: #fff; /*#cfccaa;*/
-    font-size: 8px;
+    font-size: 7px;
 }
 body > header, body > nav ul, body > main, body > footer {
     margin: 0 auto;
     padding: 0;
-    width: 200px;
+    width: 220px;
 }
 
 /*body > header {
