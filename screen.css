@@ -19,7 +19,7 @@ body {
 body > header, body > nav ul, body > main, body > footer {
     margin: 0 auto;
     padding: 0;
-    width: 300px;
+    width: 200px;
 }
 
 /*body > header {
@@ -115,7 +115,7 @@ main form fieldset {
 @media (min-width: 320px) { h1:after {content:" min 320";}
 
 body {
-    font-size: 12px;
+    font-size: 10px;
 }
 body > header, body > nav ul, body > main, body > footer {
     width: 300px;
