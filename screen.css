@@ -53,7 +53,7 @@ body > nav ul {
     margin: 0;
     margin-left: 8em;
     padding: 0;
-    width: 24em;
+    width: 23em;
 }
 body > nav li {
     list-style: none;
@@ -201,4 +201,7 @@ body > footer p {
 
 @media (min-width: 800px) { body { font-size: 25px; } }
 
-@media (min-width: 1000px) { body > nav ul { width: 32em; } }
+@media (min-width: 1000px) {
+body > header, main > article, main > section { width: 38em; }
+body > nav ul { width: 31em; }
+}
