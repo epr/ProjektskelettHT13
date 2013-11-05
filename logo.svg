@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="432" height="432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <polygon fill="black" points="38,176 52,176 14,216 52,256 38,256 0,216" />
+    <polygon fill="black" points="38,176 214,176 214,256 38,256 38,246 204,246 204,186 38,186" />
+    <polygon fill="black" points="256,176 270,176 232,216 270,256 256,256 218,216" />
+    <polygon fill="black" points="256,176 432,176 432,256 256,256 256,246 422,246 422,186 256,186" />
+</svg>

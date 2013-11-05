@@ -19,7 +19,7 @@
             <article>
                 <h2>Boka tolkning eller översättning</h2>
                 <p>Använd formulären nedan eller maila oss på <a href="mailto:bokning@kronotolk.se">bokning@kronotolk.se</a>.</p>
-                <form>
+                <form method="post">
                     <fieldset>
                         <legend>Bokas av</legend>
                         <div>
@@ -47,8 +47,8 @@
                     <fieldset>
                         <legend>Uppdrag</legend>
                         <div>
-                            <input type="radio" id="plats" name="typ" value="plats"><label for="plats"> På plats</label>
-                            <input type="radio" id="telefon" name="typ" value="telefon"><label for="telefon"> Telefon</label>
+                            <label for="plats"><input type="radio" id="plats" name="typ" value="plats"> På plats</label>
+                            <label for="telefon"><input type="radio" id="telefon" name="typ" value="telefon"> Telefon</label>
                         </div>
                         <div>
                             <label for="datum">Datum: </label><input type="date" id="datum" name="Datum">
@@ -83,5 +83,8 @@
                 </form>
             </article>
         </main>
+        <footer>
+            <p>Kronotolk.se</p>
+        </footer>
     </body>
 </html>

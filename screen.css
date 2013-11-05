@@ -13,7 +13,7 @@ beige: #cfccaa
 
 body {
     margin: 0;
-    background: #cfccaa;
+    background: #fff; /*#cfccaa;*/
     font-size: 10px;
 }
 body > header, body > nav ul, body > main, body > footer {
@@ -22,45 +22,57 @@ body > header, body > nav ul, body > main, body > footer {
     width: 300px;
 }
 
-body > header {
-    padding: 1em 0;
-}
+/*body > header {
+    background: url("http://www.pierce.ctc.edu/dept/interpreter/ref/images/banner.jpg") no-repeat right;
+}*/
+
 h1 {
     margin: 0;
     font-family: "Georgia", serif;
+    display: none;
 }
 
 h1:after {
     content: " default";
 }
 
+#logo {
+    width: 6em;
+    top: .5em;
+    position: absolute;
+    left: 1em;
+}
+
 body > nav {
-    background: #669933;
+    background: #bada55;
     font: 1em "Oxygen", sans-serif;
-    border-bottom: .25em solid #6b0808;
+    border-bottom: .25em solid #669933;
+}
+body > nav li:first-child {
+    margin-left: 25%;
 }
 body > nav li {
     list-style: none;
     display: inline-block;
-    width: 20%;
+    width: 15%;
 }
 body > nav a {
-    padding: .5em 0 .25em;
+    padding: 1.5em 0 .25em;
     width: 100%;
     display: inline-block;
     text-align: center;
-    border-bottom: .25em solid #6b0808;
+    border-bottom: .25em solid #669933;
     margin-bottom: -.25em;
     text-decoration: none;
-    color: #6b0808;
+    color: #336600;
 }
 body > nav ul:hover .current a {
-    border-bottom-color: #6b0808;
-    color: #6b0808;
+    border-bottom-color: #669933;
+    color: #336600;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
-    border-bottom-color: orange;
-    color: orange;
+    border-bottom-color: #000;
+    color: #000;
     outline: 0;
 }
 
@@ -74,8 +86,28 @@ h3 {
     border-bottom: .11em solid black;
     font-family: "Georgia", serif;
 }
-main p, main ul {
+main p, main ul, main input, main select, main textarea {
     font: 1em "Georgia", serif;
+}
+
+main form label {
+    display: block;
+}
+main form input:not([type=radio]), main form textarea {
+    border-radius: 5px;
+    border: 2px solid #6b0808;
+    width: 350px;
+    font-family: "Oxygen", sans-serif;
+}
+main form input:focus, main form textarea:focus {
+    border-color: orange;
+    outline: 0;
+}
+main form fieldset {
+    border-color: black;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 /* == media querries == */
@@ -86,7 +118,7 @@ body {
     font-size: 12px;
 }
 body > header, body > nav ul, body > main, body > footer {
-    width: 320px;
+    width: 300px;
 }
 
 }
@@ -97,7 +129,7 @@ body {
     font-size: 16px;
 }
 body > header, body > nav ul, body > main, body > footer {
-    width: 480px;
+    width: 460px;
 }
 
 }
@@ -108,7 +140,7 @@ body {
     font-size: 20px;
 }
 body > header, body > nav ul, body > main, body > footer {
-    width: 640px;
+    width: 620px;
 }
 
 }
@@ -119,7 +151,15 @@ body {
     font-size: 24px;
 }
 body > header, body > nav ul, body > main, body > footer {
-    width: 800px;
+    width: 780px;
+}
+
+}
+
+@media (min-width: 1000px) { h1:after {content:" min 800";}
+
+body > nav ul {
+    width: 980px;
 }
 
 }
