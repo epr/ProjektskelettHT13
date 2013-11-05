@@ -10,16 +10,10 @@ body {
     background: white;
     font-size: 8px;
 }
-body > header, body > main, body > footer {
+body > header, main {
     margin: 0 1em;
     padding: 0;
     width: 30em;
-}
-body > nav ul {
-    margin: 0;
-    margin-left: 8em;
-    padding: 0;
-    width: 24em;
 }
 
 /*body > header {
@@ -42,6 +36,12 @@ body > nav {
     background: #bada55;
     font: 1em "Oxygen", sans-serif;
     border-bottom: .25em solid #669933;
+}
+body > nav ul {
+    margin: 0;
+    margin-left: 8em;
+    padding: 0;
+    width: 24em;
 }
 body > nav li {
     list-style: none;
@@ -140,6 +140,13 @@ main form fieldset:last-child:after {
     font-size: .8em;
     left: 20em;
     margin-top: .8em;
+}
+
+body > footer p {
+    background: #bada55;
+    margin: 0;
+    padding: .5em 1em;
+    border-top: .125em solid #669933;
 }
 
 /* == media querries == */
