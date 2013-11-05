@@ -83,7 +83,7 @@ main p, main ul, main input, main select, main textarea {
 }
 
 main form input:not([type=radio]), main form textarea {
-    border-radius: 5px;
+    border-radius: .2em;
     border: .1em solid #669933;
     width: 15em;
     font-family: "Oxygen", sans-serif;
