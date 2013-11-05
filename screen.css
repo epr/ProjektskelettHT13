@@ -7,8 +7,8 @@
 
 body {
     margin: 0;
-    background: #fff;
-    font-size: 7px;
+    background: white;
+    font-size: 8px;
 }
 body > header, body > main, body > footer {
     margin: 0 1em;
@@ -82,24 +82,64 @@ main p, main ul, main input, main select, main textarea {
     font: 1em "Georgia", serif;
 }
 
-main form label {
-    display: block;
-}
 main form input:not([type=radio]), main form textarea {
     border-radius: 5px;
-    border: .1em solid black;
-    width: 14em;
+    border: .1em solid #669933;
+    width: 15em;
     font-family: "Oxygen", sans-serif;
+    background: white;
+    display: block;
 }
 main form input:focus, main form textarea:focus {
-    border-color: #669933;
+    border-color: black;
     outline: 0;
 }
+main form textarea {
+    height: 4em;
+}
+main form input[type=submit] {
+    width: 10em;
+    display: inline-block;
+}
+main form input[type=reset] {
+    width: 5em;
+    display: inline-block;
+}
 main form fieldset {
-    border-color: black;
-    border-bottom: 0;
-    border-left: 0;
-    border-right: 0;
+    background: #bada55;
+    border: 0;
+    position: relative;
+    padding: .5em;
+    margin: .5em 0;
+}
+main form legend {
+    font-family: "Oxygen", sans-serif;
+    background: white;
+    position: absolute;
+    top: .1em;
+    right: .1em;
+    padding: .2em .7em;
+}
+
+/* replace with JavaScript */
+main form label[for=datum]:after {
+    content: "Du måste ange ett korrekt datum!";
+    color: red;
+    position: absolute;
+    font-size: .8em;
+    left: 20em;
+    margin-top: 2em;
+}
+main form #datum {
+    border-color: red;
+}
+main form fieldset:last-child:after {
+    content: "Åtgärda 1 fel för att skicka!";
+    color: red;
+    position: absolute;
+    font-size: .8em;
+    left: 20em;
+    margin-top: .8em;
 }
 
 /* == media querries == */
