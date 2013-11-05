@@ -63,8 +63,8 @@ body > nav ul:hover .current a {
     color: #336600;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
-    border-bottom-color: #000;
-    color: #000;
+    border-bottom-color: black;
+    color: black;
     outline: 0;
 }
 
@@ -87,12 +87,12 @@ main form label {
 }
 main form input:not([type=radio]), main form textarea {
     border-radius: 5px;
-    border: 2px solid #6b0808;
+    border: 2px solid black;
     width: 14em;
     font-family: "Oxygen", sans-serif;
 }
 main form input:focus, main form textarea:focus {
-    border-color: orange;
+    border-color: #669933;
     outline: 0;
 }
 main form fieldset {
