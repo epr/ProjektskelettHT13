@@ -87,7 +87,7 @@ main form label {
 }
 main form input:not([type=radio]), main form textarea {
     border-radius: 5px;
-    border: 2px solid black;
+    border: .1em solid black;
     width: 14em;
     font-family: "Oxygen", sans-serif;
 }
