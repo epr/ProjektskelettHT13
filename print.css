@@ -1,0 +1,13 @@
+body > nav, main form {
+    display: none;
+}
+#logo {
+    width: 3cm;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a[href^=http]:after {
+    content: " ["attr(href)"]";
+}

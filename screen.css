@@ -159,4 +159,4 @@ body > footer p {
 
 @media (min-width: 800px) { body { font-size: 25px; } }
 
-@media (min-width: 1000px) { body > nav ul { width: 780px; } }
+@media (min-width: 1000px) { body > nav ul { width: 32em; } }
