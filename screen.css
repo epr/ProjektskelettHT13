@@ -81,6 +81,26 @@ main {
     background: #77dcfc;
     padding-bottom: 1em;
 }
+.start:before {
+    content: "";
+    background: url("nature.jpg");
+    background-size: 100%;
+    background-position: 50% 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 10em;
+    display: block;
+}
+.start > article {
+    padding: 2em 0 4em;
+    position: relative;
+}
+.start > article h2, .start > article p {
+    color: white;
+    text-shadow: 2px 1px black;
+}
+
 h2 {
     margin: 0;
     padding: .25em 0 .125em;
