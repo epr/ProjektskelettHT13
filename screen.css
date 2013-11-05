@@ -110,8 +110,8 @@ main > section article time {
     font-family: "Oxygen", sans-serif;
     background: #dcfc77;
     position: absolute;
-    top: .1em;
-    right: .1em;
+    top: 0;
+    right: 0;
     padding: .2em .7em;
 }
 h4 {
@@ -155,8 +155,8 @@ main form legend {
     font-family: "Oxygen", sans-serif;
     background: white;
     position: absolute;
-    top: .1em;
-    right: .1em;
+    top: 0;
+    right: 0;
     padding: .2em .7em;
 }
 
