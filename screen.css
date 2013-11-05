@@ -16,6 +16,10 @@
   font-weight: 400;
   src: local('Radley Italic'), local('Radley-Italic'), url(http://themes.googleusercontent.com/static/fonts/radley/v6/apjivvZi8ia1Y2L5aA5D7XYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
 }
+/*
+green: #dcfc77;
+blue: #77dcfc;
+*/
 
 body {
     margin: 0;
@@ -27,10 +31,6 @@ body > header, main > article, main > section {
     padding: 0;
     width: 30em;
 }
-
-/*body > header {
-    background: url("http://www.pierce.ctc.edu/dept/interpreter/ref/images/banner.jpg") no-repeat right;
-}*/
 
 h1 {
     margin: 0;
@@ -45,9 +45,8 @@ h1 {
 }
 
 body > nav {
-    background: #bada55;
+    background: #dcfc77;
     font: 1em "Oxygen", sans-serif;
-    /*border-bottom: .25em solid #669933;*/
 }
 body > nav ul {
     margin: 0;
@@ -65,23 +64,21 @@ body > nav a {
     width: 100%;
     display: inline-block;
     text-align: center;
-    /*border-bottom: .25em solid #669933;
-    margin-bottom: -.25em;*/
     text-decoration: none;
     color: #336600;
 }
 body > nav ul:hover .current a {
     color: #336600;
-    background: #bada55;
+    background: #dcfc77;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
     color: black;
     outline: 0;
-    background: #55bada;
+    background: #77dcfc;
 }
 
 main {
-    background: #55bada;
+    background: #77dcfc;
     padding-bottom: 1em;
 }
 h2 {
@@ -111,7 +108,7 @@ main > section article:last-child, main > article section:last-child {
 }
 main > section article time {
     font-family: "Oxygen", sans-serif;
-    background: #bada55;
+    background: #dcfc77;
     position: absolute;
     top: .1em;
     right: .1em;
@@ -145,7 +142,7 @@ main form input[type=reset] {
     display: inline-block;
 }
 main form fieldset {
-    background: #bada55;
+    background: #dcfc77;
     border: 0;
     position: relative;
     padding: .5em;
@@ -186,7 +183,7 @@ main form fieldset:last-child:after {
 
 body > footer p {
     font-family: "Oxygen", sans-serif;
-    background: #bada55;
+    background: #dcfc77;
     margin: 0;
     padding: .5em 1em;
 }
