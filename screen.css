@@ -4,13 +4,25 @@
     font-weight: 400;
     src: local('Oxygen'), local('Oxygen-Regular'), url(https://themes.googleusercontent.com/static/fonts/oxygen/v2/eAWT4YudG0otf3rlsJD6zOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
 }
+@font-face {
+  font-family: 'Radley';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Radley'), url(http://themes.googleusercontent.com/static/fonts/radley/v6/bwcnq0NKbe23EJptQrqsFuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+  font-family: 'Radley';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Radley Italic'), local('Radley-Italic'), url(http://themes.googleusercontent.com/static/fonts/radley/v6/apjivvZi8ia1Y2L5aA5D7XYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
 
 body {
     margin: 0;
     background: white;
     font-size: 8px;
 }
-body > header, main {
+body > header, main > article, main > section {
     margin: 0 1em;
     padding: 0;
     width: 30em;
@@ -22,7 +34,7 @@ body > header, main {
 
 h1 {
     margin: 0;
-    font-family: "Georgia", serif;
+    font-family: "Radley", serif;
     display: none;
 }
 #logo {
@@ -68,18 +80,45 @@ body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body 
     outline: 0;
 }
 
+main {
+    background: #55bada;
+    padding-bottom: 1em;
+}
 h2 {
-    margin: .25em 0;
-    /*border-bottom: .125em solid black;*/
-    font-family: "Georgia", serif;
+    margin: 0;
+    padding: .25em 0 .125em;
+    font-family: "Radley", serif;
 }
 h3 {
     margin: .25em 0;
-    /*border-bottom: .11em solid black;*/
-    font-family: "Georgia", serif;
+    font-family: "Radley", serif;
 }
 main p, main ul, main input, main select, main textarea {
-    font: 1em "Georgia", serif;
+    font: 1em "Radley", serif;
+}
+main p {
+    margin: .25em 0;
+}
+
+main > section article, main > article section {
+    background: white;
+    position: relative;
+    padding: .2em .5em;
+    margin: .5em 0;
+}
+main > section article:last-child {
+    margin-bottom: 0;
+}
+main > section article time {
+    font-family: "Oxygen", sans-serif;
+    background: #bada55;
+    position: absolute;
+    top: .1em;
+    right: .1em;
+    padding: .2em .7em;
+}
+h4 {
+    margin: .5em 0;
 }
 
 main form input:not([type=radio]), main form textarea {
@@ -112,6 +151,9 @@ main form fieldset {
     padding: .5em;
     margin: .5em 0;
 }
+main form fieldset:last-child {
+    margin-bottom: 0;
+}
 main form legend {
     font-family: "Oxygen", sans-serif;
     background: white;
@@ -143,10 +185,10 @@ main form fieldset:last-child:after {
 }
 
 body > footer p {
+    font-family: "Oxygen", sans-serif;
     background: #bada55;
     margin: 0;
     padding: .5em 1em;
-    border-top: .125em solid #669933;
 }
 
 /* == media querries == */
