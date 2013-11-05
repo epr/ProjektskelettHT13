@@ -39,7 +39,7 @@ h1 {
 }
 #logo {
     width: 6em;
-    top: .5em;
+    top: .3em;
     position: absolute;
     left: 1em;
 }
@@ -47,7 +47,7 @@ h1 {
 body > nav {
     background: #bada55;
     font: 1em "Oxygen", sans-serif;
-    border-bottom: .25em solid #669933;
+    /*border-bottom: .25em solid #669933;*/
 }
 body > nav ul {
     margin: 0;
@@ -61,23 +61,23 @@ body > nav li {
     width: 20%;
 }
 body > nav a {
-    padding: 1.5em 0 .25em;
+    padding: .75em 0;
     width: 100%;
     display: inline-block;
     text-align: center;
-    border-bottom: .25em solid #669933;
-    margin-bottom: -.25em;
+    /*border-bottom: .25em solid #669933;
+    margin-bottom: -.25em;*/
     text-decoration: none;
     color: #336600;
 }
 body > nav ul:hover .current a {
-    border-bottom-color: #669933;
     color: #336600;
+    background: #bada55;
 }
 body > nav .current a, body > nav a:hover, body > nav ul .current a:hover, body > nav a:focus {
-    border-bottom-color: black;
     color: black;
     outline: 0;
+    background: #55bada;
 }
 
 main {
