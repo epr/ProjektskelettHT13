@@ -14,7 +14,7 @@ beige: #cfccaa
 body {
     margin: 0;
     background: #fff; /*#cfccaa;*/
-    font-size: 10px;
+    font-size: 8px;
 }
 body > header, body > nav ul, body > main, body > footer {
     margin: 0 auto;
