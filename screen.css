@@ -28,7 +28,6 @@ body {
 }
 body > header, main > article, main > section {
     margin: 0 1em;
-    padding: 0;
     width: 30em;
 }
 
@@ -49,9 +48,9 @@ body > nav {
     font: 1em "Oxygen", sans-serif;
 }
 body > nav ul {
+    padding: 0;
     margin: 0;
     margin-left: 8em;
-    padding: 0;
     width: 23em;
 }
 body > nav li {
@@ -222,3 +221,10 @@ body > footer p {
 body > header, main > article, main > section { width: 38em; }
 body > nav ul { width: 31em; }
 }
+
+
+
+
+
+
+
